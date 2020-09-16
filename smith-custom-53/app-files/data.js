@@ -602,22 +602,28 @@ var APP_DATA = {
           "target": "4-pilot-house"
         },
         {
-          "yaw": 1.1772542014916425,
-          "pitch": 0.010676980019860949,
+          "yaw": 1.1782002982038993,
+          "pitch": 0.01763460758209412,
           "rotation": 4.71238898038469,
           "target": "8-interior---barebones_stbside"
         },
         {
-          "yaw": 1.1728944238089092,
-          "pitch": 0.1562009196736458,
+          "yaw": 1.1752330844714116,
+          "pitch": 0.16347883471230062,
           "rotation": 4.71238898038469,
           "target": "12-interior---arcylic_stbside"
         },
         {
-          "yaw": 1.1727643006984412,
-          "pitch": 0.22967108908273381,
+          "yaw": 1.172265093512891,
+          "pitch": 0.23820616801382677,
           "rotation": 4.71238898038469,
           "target": "14-interior---cabinetry_stbside"
+        },
+        {
+          "yaw": 1.9547223468503772,
+          "pitch": 0.2074003441239487,
+          "rotation": 0,
+          "target": "9-interior---salty_portside"
         }
       ],
       "infoHotspots": []
@@ -770,8 +776,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.708120999572543,
-          "pitch": -0.2869820261666014,
+          "yaw": -1.7386738169222244,
+          "pitch": -0.26823259423091983,
           "rotation": 0,
           "target": "4-pilot-house"
         },
@@ -826,34 +832,40 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.034284885906815,
-        "pitch": 0.3789947303957728,
-        "fov": 1.3806389203442926
+        "yaw": -0.7213008230888356,
+        "pitch": 0.41808004568843593,
+        "fov": 1.4256478217424775
       },
       "linkHotspots": [
         {
-          "yaw": 0.9013357792727703,
-          "pitch": -0.10378514259890359,
+          "yaw": -1.8756305795874688,
+          "pitch": -0.12493862002705036,
           "rotation": 0,
           "target": "4-pilot-house"
         },
         {
-          "yaw": 1.5186212156009375,
-          "pitch": 0.014101183827511576,
+          "yaw": -1.272578173692736,
+          "pitch": 0.0020539678722002463,
           "rotation": 4.71238898038469,
           "target": "8-interior---barebones_stbside"
         },
         {
-          "yaw": 1.5189361032937638,
-          "pitch": 0.09250242433633282,
-          "rotation": 4.71238898038469,
+          "yaw": -1.2757985244405692,
+          "pitch": 0.08103524532566553,
+          "rotation": 10.995574287564278,
           "target": "10-interior---salty_stbside"
         },
         {
-          "yaw": 1.5133287943626392,
-          "pitch": 0.17229748273819823,
+          "yaw": -1.2758664113697016,
+          "pitch": 0.15328284107440382,
           "rotation": 4.71238898038469,
           "target": "12-interior---arcylic_stbside"
+        },
+        {
+          "yaw": -0.3717114502186689,
+          "pitch": 0.06716652460366745,
+          "rotation": 12.566370614359176,
+          "target": "13-interior---cabinetry_portside"
         }
       ],
       "infoHotspots": []
