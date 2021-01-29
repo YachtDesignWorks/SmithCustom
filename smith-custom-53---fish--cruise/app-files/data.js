@@ -358,6 +358,12 @@ var APP_DATA = {
           "pitch": 1.0283145604160815,
           "rotation": 0,
           "target": "7-hall---stb"
+        },
+        {
+          "yaw": -2.9525554484218333,
+          "pitch": 1.0029351854550264,
+          "rotation": 0,
+          "target": "8-hall---port"
         }
       ],
       "infoHotspots": []
@@ -392,9 +398,9 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.8465637816984888,
-          "pitch": 0.34113655049769775,
-          "rotation": 0,
+          "yaw": 1.7545587889247525,
+          "pitch": 0.3149359892374122,
+          "rotation": 4.71238898038469,
           "target": "6-salon---fwd"
         },
         {
@@ -402,6 +408,12 @@ var APP_DATA = {
           "pitch": 0.5887060294286677,
           "rotation": 0,
           "target": "9-master-berth"
+        },
+        {
+          "yaw": 1.8728462262891599,
+          "pitch": 0.11879843586951111,
+          "rotation": 0,
+          "target": "8-hall---port"
         }
       ],
       "infoHotspots": []
