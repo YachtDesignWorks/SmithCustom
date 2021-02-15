@@ -1,275 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-birdeye---front",
-      "name": "Birdeye - Front",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.5789925831159,
-        "pitch": 0.17158675913260346,
-        "fov": 1.0718579243699315
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.1446921216787995,
-          "pitch": 0.06858037702620834,
-          "rotation": 2.356194490192345,
-          "target": "2-bow"
-        },
-        {
-          "yaw": 1.9980548001174254,
-          "pitch": -0.11315747458787584,
-          "rotation": 16.493361431346422,
-          "target": "1-birdeye---rear"
-        },
-        {
-          "yaw": 2.074605677809193,
-          "pitch": 0.13931245347485977,
-          "rotation": 4.71238898038469,
-          "target": "4-transom"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-birdeye---rear",
-      "name": "Birdeye - Rear",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.5870478053094157,
-        "pitch": 0.24272048819847214,
-        "fov": 0.9509811312562579
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.9650621082988842,
-          "pitch": 0.034686779676002644,
-          "rotation": 3.141592653589793,
-          "target": "2-bow"
-        },
-        {
-          "yaw": 1.8233901841788258,
-          "pitch": -0.1745012528043013,
-          "rotation": 3.9269908169872414,
-          "target": "2-bow"
-        },
-        {
-          "yaw": 1.1864859065950064,
-          "pitch": 0.15236874741569295,
-          "rotation": 2.356194490192345,
-          "target": "4-transom"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-bow",
-      "name": "Bow",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.5755450374876485,
-        "pitch": 0.30409042950786436,
-        "fov": 1.2480653250783342
-      },
-      "linkHotspots": [
-        {
-          "yaw": 3.0948313947225756,
-          "pitch": -0.2016145513930283,
-          "rotation": 0.7853981633974483,
-          "target": "0-birdeye---front"
-        },
-        {
-          "yaw": 0.9872212941696219,
-          "pitch": -0.2528914561103548,
-          "rotation": 2.356194490192345,
-          "target": "1-birdeye---rear"
-        },
-        {
-          "yaw": 1.542570258668725,
-          "pitch": -0.3408383573800151,
-          "rotation": 3.141592653589793,
-          "target": "3-flybridge"
-        },
-        {
-          "yaw": 1.9995263810315107,
-          "pitch": 0.1428854410675342,
-          "rotation": 4.71238898038469,
-          "target": "4-transom"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-flybridge",
-      "name": "Flybridge",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.5529071408542725,
-        "pitch": 0.6360241759213459,
-        "fov": 1.3456704730205973
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.8030233807714335,
-          "pitch": -0.11743441803155719,
-          "rotation": 2.356194490192345,
-          "target": "0-birdeye---front"
-        },
-        {
-          "yaw": 1.5423942338286079,
-          "pitch": 0.13765646391540187,
-          "rotation": 3.141592653589793,
-          "target": "2-bow"
-        },
-        {
-          "yaw": -2.243559586551026,
-          "pitch": -0.07612101058627019,
-          "rotation": 3.9269908169872414,
-          "target": "1-birdeye---rear"
-        },
-        {
-          "yaw": -1.6053520941648038,
-          "pitch": 0.4810297555215417,
-          "rotation": 3.141592653589793,
-          "target": "4-transom"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-transom",
-      "name": "Transom",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.6097470274921069,
-        "pitch": 0.1436157031935501,
-        "fov": 1.3456704730205973
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.740052335529377,
-          "pitch": -0.43933355335168045,
-          "rotation": 3.9269908169872414,
-          "target": "1-birdeye---rear"
-        },
-        {
-          "yaw": 1.607794738834948,
-          "pitch": -0.8377796690063946,
-          "rotation": 3.141592653589793,
-          "target": "3-flybridge"
-        },
-        {
-          "yaw": 0.6055348660900428,
-          "pitch": -0.3906481360255132,
-          "rotation": 2.356194490192345,
-          "target": "0-birdeye---front"
-        },
-        {
-          "yaw": 1.862831543229822,
-          "pitch": 0.10568675413593631,
-          "rotation": 0,
-          "target": "5-salon---aft"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-salon---aft",
+      "id": "0-salon---aft",
       "name": "Salon - Aft",
       "levels": [
         {
@@ -292,28 +24,22 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.490850194917054,
-        "pitch": 0.3850172525583524,
-        "fov": 1.3456704730205973
+        "yaw": 1.7573878904626596,
+        "pitch": 0.3349882859831972,
+        "fov": 1.4256478217424775
       },
       "linkHotspots": [
         {
-          "yaw": -1.4094704237941187,
-          "pitch": 0.5065147239051626,
-          "rotation": 0,
-          "target": "4-transom"
-        },
-        {
-          "yaw": 1.5542559724594582,
-          "pitch": 0.5679073772826566,
-          "rotation": 0,
-          "target": "6-salon---fwd"
+          "yaw": 1.554685663858507,
+          "pitch": 0.5605513045592936,
+          "rotation": 3.141592653589793,
+          "target": "1-salon---fwd"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-salon---fwd",
+      "id": "1-salon---fwd",
       "name": "Salon - Fwd",
       "levels": [
         {
@@ -336,91 +62,35 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.5688110260856778,
-        "pitch": 0.4512494218385008,
-        "fov": 1.3456704730205973
+        "yaw": 1.57175712840702,
+        "pitch": 0.5258537047410794,
+        "fov": 1.4256478217424775
       },
       "linkHotspots": [
         {
-          "yaw": 1.265598145083306,
-          "pitch": 0.6129143636230658,
-          "rotation": 0,
-          "target": "5-salon---aft"
+          "yaw": 1.2472453206732457,
+          "pitch": 0.5826702479476094,
+          "rotation": 3.141592653589793,
+          "target": "0-salon---aft"
         },
         {
-          "yaw": 1.3453719731551441,
-          "pitch": 0.20393980711975956,
-          "rotation": 0,
-          "target": "4-transom"
+          "yaw": -0.837449611041885,
+          "pitch": 1.0581692352037049,
+          "rotation": 0.7853981633974483,
+          "target": "2-stb---hall"
         },
         {
-          "yaw": -0.22594096295843258,
-          "pitch": 1.0283145604160815,
-          "rotation": 0,
-          "target": "7-hall---stb"
-        },
-        {
-          "yaw": -2.9525554484218333,
-          "pitch": 1.0029351854550264,
-          "rotation": 0,
-          "target": "8-hall---port"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-hall---stb",
-      "name": "Hall - STB",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 2.138102276189583,
-        "pitch": 0.3560200746591633,
-        "fov": 1.3456704730205973
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7545587889247525,
-          "pitch": 0.3149359892374122,
+          "yaw": -2.4260448534669585,
+          "pitch": 1.0482100321998207,
           "rotation": 4.71238898038469,
-          "target": "6-salon---fwd"
-        },
-        {
-          "yaw": -3.1159454209418804,
-          "pitch": 0.5887060294286677,
-          "rotation": 0,
-          "target": "9-master-berth"
-        },
-        {
-          "yaw": 1.8728462262891599,
-          "pitch": 0.11879843586951111,
-          "rotation": 0,
-          "target": "8-hall---port"
+          "target": "5-port---hall"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-hall---port",
-      "name": "Hall - Port",
+      "id": "2-stb---hall",
+      "name": "STB - Hall",
       "levels": [
         {
           "tileSize": 256,
@@ -442,35 +112,41 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.5934377996371616,
-        "pitch": 0.44001885557227993,
-        "fov": 1.3456704730205973
+        "yaw": 1.790413270151551,
+        "pitch": 0.2688961722111678,
+        "fov": 1.4256478217424775
       },
       "linkHotspots": [
         {
-          "yaw": -0.2419923900307417,
-          "pitch": 0.4568655920078548,
+          "yaw": 1.7289755359639054,
+          "pitch": 0.5977121537312104,
           "rotation": 0,
-          "target": "6-salon---fwd"
+          "target": "4-stb---fwd-berth"
         },
         {
-          "yaw": -0.259528393072495,
-          "pitch": 0.23638366246009923,
-          "rotation": 0,
-          "target": "7-hall---stb"
+          "yaw": 1.500379779260948,
+          "pitch": 0.26280075403542824,
+          "rotation": 4.71238898038469,
+          "target": "3-stb---head"
         },
         {
-          "yaw": -1.7203715662963237,
-          "pitch": 0.5963311189939109,
+          "yaw": 0.0500365523471622,
+          "pitch": 0.39446679510021454,
+          "rotation": 4.71238898038469,
+          "target": "1-salon---fwd"
+        },
+        {
+          "yaw": 0.14758132464331375,
+          "pitch": 0.256241433430322,
           "rotation": 0,
-          "target": "10-portside-berth"
+          "target": "5-port---hall"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "9-master-berth",
-      "name": "Master Berth",
+      "id": "3-stb---head",
+      "name": "STB - Head",
       "levels": [
         {
           "tileSize": 256,
@@ -492,23 +168,29 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.8273803439868459,
-        "pitch": 0.2846485895793158,
-        "fov": 1.3456704730205973
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.8138720274108096,
-          "pitch": 0.8835823130183762,
-          "rotation": 0,
-          "target": "7-hall---stb"
+          "yaw": -1.1906256488919826,
+          "pitch": 0.33701018319112563,
+          "rotation": 1.5707963267948966,
+          "target": "2-stb---hall"
+        },
+        {
+          "yaw": -2.3506368648724703,
+          "pitch": 0.47437779152356363,
+          "rotation": 4.71238898038469,
+          "target": "4-stb---fwd-berth"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "10-portside-berth",
-      "name": "Portside Berth",
+      "id": "4-stb---fwd-berth",
+      "name": "STB - Fwd Berth",
       "levels": [
         {
           "tileSize": 256,
@@ -530,22 +212,172 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 1.2826184658803381,
-        "pitch": 0.32006926315354534,
-        "fov": 1.3456704730205973
+        "yaw": 1.535806203465329,
+        "pitch": 0.3413465051754301,
+        "fov": 1.4256478217424775
       },
       "linkHotspots": [
         {
-          "yaw": -0.7064767840850195,
-          "pitch": 0.624239729303774,
-          "rotation": 5.497787143782138,
-          "target": "8-hall---port"
+          "yaw": -1.0698376418322244,
+          "pitch": 0.620046862324326,
+          "rotation": 0,
+          "target": "2-stb---hall"
+        },
+        {
+          "yaw": -0.7385456966648416,
+          "pitch": 0.32774078940671103,
+          "rotation": 1.5707963267948966,
+          "target": "3-stb---head"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-port---hall",
+      "name": "Port - Hall",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.010885269245378026,
+          "pitch": 0.5799505155677736,
+          "rotation": 0,
+          "target": "7-port---fwd-berth"
+        },
+        {
+          "yaw": 0.09904488396744604,
+          "pitch": 0.19547567533217247,
+          "rotation": 1.5707963267948966,
+          "target": "6-port---head"
+        },
+        {
+          "yaw": 1.5994006339301352,
+          "pitch": 0.42876616441070503,
+          "rotation": 7.853981633974483,
+          "target": "1-salon---fwd"
+        },
+        {
+          "yaw": 1.5993935004617317,
+          "pitch": 0.2555311527537292,
+          "rotation": 0,
+          "target": "2-stb---hall"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-port---head",
+      "name": "Port - Head",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.0429560210530475,
+        "pitch": 0.6889287866735803,
+        "fov": 1.3731268825307628
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.3076418899339508,
+          "pitch": 0.47797408050416124,
+          "rotation": 1.5707963267948966,
+          "target": "7-port---fwd-berth"
+        },
+        {
+          "yaw": -2.3224298816395272,
+          "pitch": 0.452908951216628,
+          "rotation": 10.995574287564278,
+          "target": "5-port---hall"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-port---fwd-berth",
+      "name": "Port - Fwd Berth",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.864339462671568,
+        "pitch": 0.4825615983635103,
+        "fov": 1.4256478217424775
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9883762682135693,
+          "pitch": 0.6602792361897443,
+          "rotation": 0,
+          "target": "5-port---hall"
+        },
+        {
+          "yaw": -2.183341781926103,
+          "pitch": 0.39352720552845,
+          "rotation": 4.71238898038469,
+          "target": "6-port---head"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Smith Custom 53 - Fish & Cruise",
+  "name": "Smith Custom 53 - Salt Cracker",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
