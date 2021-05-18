@@ -16,32 +16,36 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 875,
+      "faceSize": 1750,
       "initialViewParameters": {
-        "yaw": -3.049202512162097,
-        "pitch": 0.4175335841519505,
-        "fov": 1.4210867929104314
+        "yaw": -3.029300204392511,
+        "pitch": 0.5128202447807446,
+        "fov": 1.4236357722889479
       },
       "linkHotspots": [
         {
-          "yaw": -3.0596241019849586,
-          "pitch": 0.044873016812553956,
-          "rotation": 0,
+          "yaw": 2.5801525005903496,
+          "pitch": -0.1602877688060449,
+          "rotation": 8.63937979737193,
+          "target": "2-rear-perspective"
+        },
+        {
+          "yaw": -3.0715697061429506,
+          "pitch": -0.22078244056276475,
+          "rotation": 3.141592653589793,
           "target": "1-transom"
         },
         {
-          "yaw": 2.571861730060986,
-          "pitch": -0.2297837962302367,
-          "rotation": 3.141592653589793,
-          "target": "3-persp---rear"
-        },
-        {
-          "yaw": 1.0506559387884273,
-          "pitch": -0.409383439615592,
-          "rotation": 9.42477796076938,
-          "target": "2-persp---front"
+          "yaw": 0.92886132692092,
+          "pitch": -0.30511075090613815,
+          "rotation": 8.63937979737193,
+          "target": "3-front-perspective"
         }
       ],
       "infoHotspots": []
@@ -62,124 +66,136 @@ var APP_DATA = {
         {
           "tileSize": 512,
           "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
-      "faceSize": 875,
+      "faceSize": 1750,
       "initialViewParameters": {
-        "yaw": 3.0521409596790807,
-        "pitch": 0.09342268200844472,
-        "fov": 1.4210867929104314
+        "yaw": 3.03691269835498,
+        "pitch": 0.06646275897381138,
+        "fov": 1.4236357722889479
       },
       "linkHotspots": [
         {
-          "yaw": -1.0840666549841504,
-          "pitch": -0.4442259440988323,
-          "rotation": 3.141592653589793,
-          "target": "3-persp---rear"
+          "yaw": -1.3996278966447697,
+          "pitch": 0.12567839491405053,
+          "rotation": 3.9269908169872414,
+          "target": "2-rear-perspective"
         },
         {
-          "yaw": -2.3895581715522187,
-          "pitch": -0.2609592502096483,
-          "rotation": 3.141592653589793,
-          "target": "2-persp---front"
-        },
-        {
-          "yaw": 3.0224031061694694,
-          "pitch": 0.05466864915124603,
+          "yaw": 3.0214558145783554,
+          "pitch": 0.0978954017436493,
           "rotation": 0,
           "target": "0-bow"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-persp---front",
-      "name": "Persp - Front",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 875,
-      "initialViewParameters": {
-        "yaw": -2.9782613268131026,
-        "pitch": 0.5840601376280539,
-        "fov": 1.4210867929104314
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.494532684304719,
-          "pitch": 0.28303908062452265,
-          "rotation": 3.141592653589793,
-          "target": "0-bow"
-        },
-        {
-          "yaw": 2.8368268682828077,
-          "pitch": 0.13797890958940684,
-          "rotation": 3.141592653589793,
-          "target": "1-transom"
-        },
-        {
-          "yaw": 2.3097158425647173,
-          "pitch": 0.07663526984622493,
-          "rotation": 2.356194490192345,
-          "target": "3-persp---rear"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-persp---rear",
-      "name": "Persp - Rear",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 875,
-      "initialViewParameters": {
-        "yaw": 3.0249105541018384,
-        "pitch": 0.3391445260489334,
-        "fov": 1.4210867929104314
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.942512505298799,
-          "pitch": 0.0709093513996617,
-          "rotation": 3.141592653589793,
-          "target": "0-bow"
-        },
-        {
-          "yaw": -2.3431955119886076,
-          "pitch": -0.054973727006037976,
+          "yaw": -2.5405111469774617,
+          "pitch": -0.23710370880644938,
           "rotation": 3.9269908169872414,
-          "target": "2-persp---front"
+          "target": "3-front-perspective"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-rear-perspective",
+      "name": "Rear Perspective",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 2.5591134449744715,
-          "pitch": 0.21459787596033308,
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1750,
+      "initialViewParameters": {
+        "yaw": 2.8482738293893917,
+        "pitch": 0.2797275849440535,
+        "fov": 1.4236357722889479
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.582072391159559,
+          "pitch": 0.24237959525154906,
           "rotation": 3.141592653589793,
           "target": "1-transom"
+        },
+        {
+          "yaw": -2.924992949759039,
+          "pitch": 0.06725757093920137,
+          "rotation": 3.141592653589793,
+          "target": "0-bow"
+        },
+        {
+          "yaw": -2.365672553831457,
+          "pitch": 0.12787430397820998,
+          "rotation": 4.71238898038469,
+          "target": "3-front-perspective"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-front-perspective",
+      "name": "Front Perspective",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1750,
+      "initialViewParameters": {
+        "yaw": -2.837037528295671,
+        "pitch": 0.17132185371905884,
+        "fov": 1.4236357722889479
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.4643812580284923,
+          "pitch": 0.01998280837533173,
+          "rotation": 3.141592653589793,
+          "target": "0-bow"
+        },
+        {
+          "yaw": 2.830952519470876,
+          "pitch": 0.04170580410837488,
+          "rotation": 3.141592653589793,
+          "target": "1-transom"
+        },
+        {
+          "yaw": 2.2193904784775,
+          "pitch": 0.17188455481426246,
+          "rotation": 7.853981633974483,
+          "target": "2-rear-perspective"
         }
       ],
       "infoHotspots": []
